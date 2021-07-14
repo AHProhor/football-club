@@ -179,6 +179,7 @@ img {
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
+  /* Header Section */
   .container {
     width: 100%;
     height: auto;
@@ -206,6 +207,8 @@ img {
     margin-bottom: 0px;
     margin-right: 0px;
   }
+
+  /* Player Section */
   .main-player {
     margin-left: 0px;
     margin-top: 0px;
