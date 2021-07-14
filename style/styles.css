@@ -56,7 +56,10 @@ i {
   transform: rotate(360deg);
 }
 /* Header design finish */
-/* Main design Start */
+
+/* --------------------
+      Main design Start 
+-------------------------*/
 .main-player {
   margin-left: 250px;
   margin-top: 70px;
@@ -90,4 +93,74 @@ i {
   height: 154px;
   text-align: justify;
   margin: 0px;
+}
+/* Highlights SEction */
+.highlights-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 165px;
+}
+.highlights-des {
+  width: 469px;
+  height: 309px;
+}
+.match-image img,
+a {
+  width: 567px;
+  height: 427px;
+  margin: 50px;
+}
+
+/* News Section design */
+.top-news {
+  width: 100%;
+  height: 600px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border: 0px solid #ffffff;
+  border-radius: 10px;
+}
+.top-news h1 {
+  color: #2d25a0;
+  margin-top: 0px;
+  text-align: center;
+}
+.newses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border: 0px solid #ffffff;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+.news-img img {
+  height: 250px;
+  width: 350px;
+  padding: 20px 10px;
+}
+.news-des {
+  padding: 20px;
+}
+/* Main design end */
+
+/* Footer design css start */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.footer-section img {
+  width: 483px;
+  height: 110px;
 }
