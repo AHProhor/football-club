@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* Common CSS */
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+/*--------------------
+       Header part design CSS 
+----------------------------*/
+.header-section {
+  height: 700px;
+  background: #2d25a0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right-side img {
+  width: 556px;
+  height: 438px;
+}
